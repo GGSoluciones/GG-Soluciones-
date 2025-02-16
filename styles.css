@@ -1,0 +1,180 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #1a1a1a;
+    color: #fff;
+  }
+  
+  header {
+    background: #2e0249;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background: url('img/fondo-hero.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero-content h2 {
+    font-size: 2.5em;
+  }
+  
+  .hero-content p {
+    font-size: 1.2em;
+  }
+  
+  .btn {
+    background: #a91079;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .catalogo {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .categorias {
+    margin-bottom: 20px;
+  }
+  
+  .btn-categoria {
+    background: #570a57;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-categoria.active {
+    background: #a91079;
+  }
+  
+  .productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .producto {
+    background: #2e0249;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .producto img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .contacto {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .contacto input, .contacto textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .redes-sociales {
+    margin-top: 20px;
+  }
+  
+  .redes-sociales p {
+    margin-bottom: 10px;
+  }
+  
+  .btn-social {
+    display: inline-flex;
+    align-items: center;
+    background: #570a57;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 5px;
+  }
+  
+  .btn-social img {
+    width: 20px;
+    margin-right: 10px;
+  }
+  
+  .btn-social:hover {
+    background: #a91079;
+  }
+  
+  footer {
+    background: #2e0249;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+
+  /* Estilos para la sección de métodos de pago */
+.pagos {
+  padding: 50px 20px;
+  text-align: center;
+  background: #2e0249;
+  color: #fff;
+}
+
+.info-pago {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.alias-pago {
+  background: #570a57;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 20px 0;
+  font-size: 1.2em;
+}
+
+.alias-pago strong {
+  color: #a91079;
+}
